@@ -10,7 +10,7 @@ type ToDoItem {
   id: ID!
   title: String!
   completed: Boolean!
-  user: User
+  user: User!
 }
 
 type Query {
